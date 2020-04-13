@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--security policy here-->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--csp here:-->
+    <!--
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com">
+    -->
+</head>
+<body>
+    
+    <script>
+        //a thing you shouldn't do :(
+        function badCode(){
+            window.alert("this is a thing you shouldn't do cuz your site can't tell where the script came from :(");
+        }
+</script>
+    <button onclick = "badCode()">click me :)</button>
+</body>
+</html>
