@@ -1,0 +1,13 @@
+.hugeText{
+    font-size: 44px;
+}
+.buttonLarge{
+    font-size: 64px; 
+    font-family: 'Courier New', Courier, monospace;   
+}
+.centered {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:250px;
+    text-align: center;
+  }
+  

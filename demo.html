@@ -7,6 +7,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="styles.css" rel="stylesheet" type="text/css">
     <!--csp here:-->
     <!--
         <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com">
@@ -20,6 +21,9 @@
             window.alert("this is a thing you shouldn't do cuz your site can't tell where the script came from :(");
         }
 </script>
-    <button onclick = "badCode()">click me :)</button>
+    <div class= "centered">
+        <h1 class = "hugeText">Click the button below to see the inline script execute:</h1>
+        <button class="buttonLarge" onclick = "badCode()">Click Me 😋</button>
+    </div>
 </body>
 </html>
